@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Clínica Saúde & Tecnologia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica em SUA CIDADE com atendimento moderno e agendamento rápido pelo WhatsApp.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Clínica Saúde</div>
+
+    <ul class="menu-desktop">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#localizacao">Localização</a></li>
+    </ul>
+
+    <div class="menu-btn" id="menuBtn">☰</div>
+  </nav>
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#localizacao">Localização</a>
+  </div>
+
+  <!-- HERO -->
+  <header id="inicio" class="reveal">
+    <h1>Cuidado, tecnologia e atendimento humanizado</h1>
+    <p>Agende sua consulta de forma rápida e prática</p>
+
+    <button class="btn-whatsapp" onclick="agendarWhatsapp()">
+      Agendar pelo WhatsApp
+    </button>
+  </header>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="reveal">
+    <h2>Serviços</h2>
+    <div class="cards">
+      <div class="card reveal">Atendimento moderno</div>
+      <div class="card reveal">Agendamento fácil</div>
+      <div class="card reveal">Profissionais qualificados</div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="reveal">
+    <h2>Sobre a Clínica</h2>
+    <p>
+      Somos uma clínica focada em tecnologia, conforto e cuidado com cada paciente.
+    </p>
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section id="localizacao" class="reveal">
+    <h2>Onde estamos</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18"
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Clínica Saúde & Tecnologia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
